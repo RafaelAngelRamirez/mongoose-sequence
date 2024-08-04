@@ -1,6 +1,6 @@
 {
   "name": "@codice-progressio/mongoose-sequence",
-  "version": "6.0.1",
+  "version": "6.0.2",
   "description": "Very generic autoincrement plugin for mongoose",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "test-watch": "jest --watch",
     "test": "npm run lint && npm run test-only -- --coverage",
     "test-ci": "npm run lint -- --quiet && npm run test-only -- --coverage --coverageReporters=text-lcov | coveralls",
-    "release": "npx standard-version && git push --follow-tags && npm run build && npm publish" 
+    "release": "npx standard-version && git push --follow-tags && npm run build && npm publish"
   },
   "keywords": [
     "mongoose",

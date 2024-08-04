@@ -1,6 +1,6 @@
 {
   "name": "@codice-progressio/mongoose-sequence",
-  "version": "6.0.4",
+  "version": "6.0.5",
   "description": "Very generic autoincrement plugin for mongoose",
   "main": "index.js",
   "scripts": {

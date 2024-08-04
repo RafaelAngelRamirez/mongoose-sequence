@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-sequence",
+  "name": "@codice-progressio/mongoose-sequence",
   "version": "6.0.1",
   "description": "Very generic autoincrement plugin for mongoose",
   "main": "index.js",
@@ -9,7 +9,8 @@
     "test-only": "jest",
     "test-watch": "jest --watch",
     "test": "npm run lint && npm run test-only -- --coverage",
-    "test-ci": "npm run lint -- --quiet && npm run test-only -- --coverage --coverageReporters=text-lcov | coveralls"
+    "test-ci": "npm run lint -- --quiet && npm run test-only -- --coverage --coverageReporters=text-lcov | coveralls",
+    "release": "npx standard-version && git push --follow-tags && npm run build && npm publish" 
   },
   "keywords": [
     "mongoose",
@@ -19,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ramiel/mongoose-sequence.git"
+    "url": "https://github.com/RafaelAngelRamirez/mongoose-sequence.git"
   },
   "author": {
     "name": "Fabrizio Ruggeri",

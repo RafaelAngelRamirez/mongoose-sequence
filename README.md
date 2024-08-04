@@ -1,9 +1,8 @@
 # Mongoose sequence plugin
 
-[![Build Status](https://travis-ci.org/ramiel/mongoose-sequence.svg?branch=master)](https://travis-ci.org/ramiel/mongoose-sequence)
-[![Coverage Status](https://coveralls.io/repos/github/ramiel/mongoose-sequence/badge.svg?branch=master)](https://coveralls.io/github/ramiel/mongoose-sequence?branch=master)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/FabrizioRuggeri)
-![npm](https://img.shields.io/npm/v/mongoose-sequence)
+
+# Official repo it's not under maintain. This is a fork. 
+
 
 Hello everybody. Look, I have no more time to maintain this old library. If anybody wants to take over is very welcome
 and I'm available to review PRs. For the moment I have no time, no will to work on this library.
